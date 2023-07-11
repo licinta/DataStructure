@@ -9,7 +9,6 @@ void KMP(std::string src, std::string dst)
     next[0] = 0;
     int i = 0, j = 0;
     for (i = 1; i <= dst.length(); i++) {
-        j = next[i - 1];
         while (j && dst[j] != dst[i]) {
             j = next[j - 1];
         }
