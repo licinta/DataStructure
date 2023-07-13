@@ -11,3 +11,5 @@ include_directories(Tree)
 
 
 add_executable(BST Tree/BST.cpp)
+add_executable(Huffman Tree/Huffman.cpp)
+add_executable(Heap Tree/Heap.cpp)
