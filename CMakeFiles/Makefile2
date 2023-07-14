@@ -67,6 +67,8 @@ all: CMakeFiles/BST.dir/all
 all: CMakeFiles/Huffman.dir/all
 all: CMakeFiles/Heap.dir/all
 all: CMakeFiles/List.dir/all
+all: CMakeFiles/Hash.dir/all
+all: CMakeFiles/Bfind.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +80,8 @@ clean: CMakeFiles/BST.dir/clean
 clean: CMakeFiles/Huffman.dir/clean
 clean: CMakeFiles/Heap.dir/clean
 clean: CMakeFiles/List.dir/clean
+clean: CMakeFiles/Hash.dir/clean
+clean: CMakeFiles/Bfind.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,7 +117,7 @@ CMakeFiles/BST.dir/clean:
 CMakeFiles/Huffman.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Huffman.dir/build.make CMakeFiles/Huffman.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Huffman.dir/build.make CMakeFiles/Huffman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=5,6 "Built target Huffman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=9,10 "Built target Huffman"
 .PHONY : CMakeFiles/Huffman.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +143,7 @@ CMakeFiles/Huffman.dir/clean:
 CMakeFiles/Heap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Heap.dir/build.make CMakeFiles/Heap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Heap.dir/build.make CMakeFiles/Heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=3,4 "Built target Heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=7,8 "Built target Heap"
 .PHONY : CMakeFiles/Heap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +169,7 @@ CMakeFiles/Heap.dir/clean:
 CMakeFiles/List.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=7,8 "Built target List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=11,12 "Built target List"
 .PHONY : CMakeFiles/List.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +187,58 @@ List: CMakeFiles/List.dir/rule
 CMakeFiles/List.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/clean
 .PHONY : CMakeFiles/List.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hash.dir
+
+# All Build rule for target.
+CMakeFiles/Hash.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=5,6 "Built target Hash"
+.PHONY : CMakeFiles/Hash.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hash.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chen/Desktop/DataStructure/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hash.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chen/Desktop/DataStructure/CMakeFiles 0
+.PHONY : CMakeFiles/Hash.dir/rule
+
+# Convenience name for target.
+Hash: CMakeFiles/Hash.dir/rule
+.PHONY : Hash
+
+# clean rule for target.
+CMakeFiles/Hash.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/clean
+.PHONY : CMakeFiles/Hash.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Bfind.dir
+
+# All Build rule for target.
+CMakeFiles/Bfind.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chen/Desktop/DataStructure/CMakeFiles --progress-num=3,4 "Built target Bfind"
+.PHONY : CMakeFiles/Bfind.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Bfind.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chen/Desktop/DataStructure/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Bfind.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chen/Desktop/DataStructure/CMakeFiles 0
+.PHONY : CMakeFiles/Bfind.dir/rule
+
+# Convenience name for target.
+Bfind: CMakeFiles/Bfind.dir/rule
+.PHONY : Bfind
+
+# clean rule for target.
+CMakeFiles/Bfind.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/clean
+.PHONY : CMakeFiles/Bfind.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

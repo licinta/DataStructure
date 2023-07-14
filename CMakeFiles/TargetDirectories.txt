@@ -2,5 +2,7 @@
 /Users/chen/Desktop/DataStructure/CMakeFiles/Huffman.dir
 /Users/chen/Desktop/DataStructure/CMakeFiles/Heap.dir
 /Users/chen/Desktop/DataStructure/CMakeFiles/List.dir
+/Users/chen/Desktop/DataStructure/CMakeFiles/Hash.dir
+/Users/chen/Desktop/DataStructure/CMakeFiles/Bfind.dir
 /Users/chen/Desktop/DataStructure/CMakeFiles/edit_cache.dir
 /Users/chen/Desktop/DataStructure/CMakeFiles/rebuild_cache.dir

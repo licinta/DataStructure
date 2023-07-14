@@ -168,6 +168,80 @@ List/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
 .PHONY : List/fast
 
+#=============================================================================
+# Target rules for targets named Hash
+
+# Build rule for target.
+Hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hash
+.PHONY : Hash
+
+# fast build rule for target.
+Hash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/build
+.PHONY : Hash/fast
+
+#=============================================================================
+# Target rules for targets named Bfind
+
+# Build rule for target.
+Bfind: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Bfind
+.PHONY : Bfind
+
+# fast build rule for target.
+Bfind/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/build
+.PHONY : Bfind/fast
+
+Find/Bfind.o: Find/Bfind.cpp.o
+.PHONY : Find/Bfind.o
+
+# target to build an object file
+Find/Bfind.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/Find/Bfind.cpp.o
+.PHONY : Find/Bfind.cpp.o
+
+Find/Bfind.i: Find/Bfind.cpp.i
+.PHONY : Find/Bfind.i
+
+# target to preprocess a source file
+Find/Bfind.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/Find/Bfind.cpp.i
+.PHONY : Find/Bfind.cpp.i
+
+Find/Bfind.s: Find/Bfind.cpp.s
+.PHONY : Find/Bfind.s
+
+# target to generate assembly for a file
+Find/Bfind.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bfind.dir/build.make CMakeFiles/Bfind.dir/Find/Bfind.cpp.s
+.PHONY : Find/Bfind.cpp.s
+
+Find/Hash.o: Find/Hash.cpp.o
+.PHONY : Find/Hash.o
+
+# target to build an object file
+Find/Hash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/Find/Hash.cpp.o
+.PHONY : Find/Hash.cpp.o
+
+Find/Hash.i: Find/Hash.cpp.i
+.PHONY : Find/Hash.i
+
+# target to preprocess a source file
+Find/Hash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/Find/Hash.cpp.i
+.PHONY : Find/Hash.cpp.i
+
+Find/Hash.s: Find/Hash.cpp.s
+.PHONY : Find/Hash.s
+
+# target to generate assembly for a file
+Find/Hash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hash.dir/build.make CMakeFiles/Hash.dir/Find/Hash.cpp.s
+.PHONY : Find/Hash.cpp.s
+
 Liner/LinkedList.o: Liner/LinkedList.cpp.o
 .PHONY : Liner/LinkedList.o
 
@@ -273,9 +347,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BST"
+	@echo "... Bfind"
+	@echo "... Hash"
 	@echo "... Heap"
 	@echo "... Huffman"
 	@echo "... List"
+	@echo "... Find/Bfind.o"
+	@echo "... Find/Bfind.i"
+	@echo "... Find/Bfind.s"
+	@echo "... Find/Hash.o"
+	@echo "... Find/Hash.i"
+	@echo "... Find/Hash.s"
 	@echo "... Liner/LinkedList.o"
 	@echo "... Liner/LinkedList.i"
 	@echo "... Liner/LinkedList.s"
